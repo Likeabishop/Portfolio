@@ -1,8 +1,8 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Dashboard from './pages/Dashboard';
 import MainLayout from './Layout/MainLayout';
 
-function App() {
+const App = () => {
   return (
     <Router>
       <MainLayout>
