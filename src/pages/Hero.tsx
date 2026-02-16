@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Hero = () => {
     return (
       <section id="home" className="min-h-[90vh] flex items-center">
@@ -8,7 +10,7 @@ const Hero = () => {
               <span className="text-indigo-600 dark:text-indigo-400">Karabo Tebeila</span>
             </h1>
             <p className="text-2xl text-gray-600 dark:text-gray-400">
-              Full Stack Developer & UI/UX Enthusiast
+              Full Stack Developer & Blockchain Enthusiast
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
               I build exceptional digital experiences that make a difference. 
@@ -16,18 +18,18 @@ const Hero = () => {
               creating responsive, user-friendly applications.
             </p>
             <div className="flex space-x-4">
-              <a
-                href="#contact"
+              <Link
+                to="contact"
                 className="px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors duration-200 font-medium"
               >
                 Hire Me
-              </a>
-              <a
-                href="#projects"
+              </Link>
+              <Link
+                to="projects"
                 className="px-6 py-3 border-2 border-indigo-600 text-indigo-600 dark:text-indigo-400 rounded-lg hover:bg-indigo-600 hover:text-white transition-colors duration-200 font-medium"
               >
                 View Work
-              </a>
+              </Link>
             </div>
           </div>
           <div className="relative">
