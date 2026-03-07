@@ -10,12 +10,12 @@ const Hero = () => {
               <span className="text-indigo-600 dark:text-indigo-400">Karabo Tebeila</span>
             </h1>
             <p className="text-2xl text-gray-600 dark:text-gray-400">
-              Full Stack Developer & Blockchain Enthusiast
+              Full-Stack Software Engineer | Java • Spring Boot • React • Cloud-Ready Systems
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-              I build exceptional digital experiences that make a difference. 
-              With 2+ practical years of experience in web development, I specialize in 
-              creating responsive, user-friendly applications.
+              I design and build scalable, secure web applications that deliver real business value. 
+              With over two years of hands-on development experience, I specialize in backend engineering 
+              with Java and Spring Boot, modern React frontends, and cloud-oriented deployment practices.
             </p>
             <div className="flex space-x-4">
               <Link

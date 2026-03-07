@@ -7,16 +7,14 @@ const AboutMe = () => {
         <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg">
           <div className="prose prose-lg dark:prose-invert max-w-none">
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-              I'm a disciplined, high-output, solution-oriented operator and I solve problems clinically.
-              I make decisions from that identity daily. I am a Software Engineer who has dabbled in different technologies and 
-              I have found comfort in Spring Boot (Java) + React TypeScript, but I am also very interested in emerging technologies like Blockchain/Web3. 
-              I am also interested in Data Science. 
-              Last but not least I am an Advanced Diploma in Computer Science student and I've had the opportunity to work with startups
-              where there is a lot of pressure and a lot of moving parts.
+              I'm a disciplined, high-output Software Engineer who builds reliable, secure, and scalable systems. I specialize in Java with Spring Boot and modern React TypeScript applications, focusing on designing backend services that are resilient, maintainable, and cloud-ready.
+
+              My work emphasizes secure API design, authentication systems, containerized deployments, and performance-driven architecture. I’m particularly interested in cloud-native engineering, distributed systems, and infrastructure that supports high-availability applications at scale.
+
+              Currently pursuing an Advanced Diploma in Computer Science, I’ve gained valuable experience working in fast-paced startup environments where ownership, adaptability, and solution-driven thinking are essential.
             </p>
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed mt-4">
-              When I'm not coding, you can find me exploring new technologies, contributing to 
-              open-source projects, or sharing my knowledge through blog posts and mentoring.
+              Beyond delivery, I continuously refine my craft by exploring modern tooling, contributing to technical communities, and mentoring peers.
             </p>
           </div>
         </div>

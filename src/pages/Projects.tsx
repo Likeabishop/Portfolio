@@ -4,8 +4,17 @@ const Projects = () => {
 
     const projects = [
     {
+      title: 'LiveAuth',
+      description: 'A production-style authentication microservice implementing stateless JWT security, refresh token rotation, role-based access control, and containerized deployment for scalable cloud-native systems.',
+      image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c',
+      tech: ['Java', 'Spring Boot', 'Spring Security', 'JWT', 'Docker', 'PostgreSQL', 'Redis'],
+      liveLink: '#',
+      githubLink: 'https://github.com/Likeabishop/LiveAuth',
+      status: 'in-progress',
+    },
+    {
       title: 'Local News Articles',
-      description: 'A full-stack Twitter-esque solution with React, Django, and MySQL Workbench',
+      description: 'Real-time social platform with WebSocket messaging built with React, Django, and MySQL Workbench',
       image: 'https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       tech: ['React', 'Django', 'MySQL Workbench', 'Tailwind'],
       liveLink: '#',
@@ -22,7 +31,7 @@ const Projects = () => {
       status: 'in-progress', // or 'live'
     },
     {
-      title: 'A Spotify-esque full stack app',
+      title: 'Music updates platform with where artists post their discography',
       description: 'Undisclosed',
       image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       tech: ['Python', 'TensorFlow', 'React', 'FastAPI'],
@@ -31,7 +40,7 @@ const Projects = () => {
       status: 'coming-soon', // or 'live', 'in-progress'
     },
     {
-      title: 'An Uber-esque full stack app',
+      title: 'Ride-hailing logistics platform with geospatial tracking',
       description: 'Undisclosed',
       image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       tech: ['Python', 'TensorFlow', 'React', 'FastAPI'],
@@ -47,15 +56,16 @@ const Projects = () => {
           Featured Projects
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
+          {projects.map((project) => (
             <div
-              key={index}
+              key={project.title}
               className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
             >
               <div className="h-48 overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}
+                  loading="lazy"
                   className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                 />
               </div>
