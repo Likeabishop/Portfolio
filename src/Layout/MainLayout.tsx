@@ -37,7 +37,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
                   {/* Reduced size to w-10 h-10 (40px) or w-12 h-12 (48px) */}
                   <div className="w-30 h-16 rounded-full overflow-hidden">
                     <img
-                      src={`${import.meta.env.BASE_URL}images/logo.png`}
+                      src="/images/logo.png"
                       alt="K A R A B O Logo"
                       className="w-full h-full object-cover"
                     />
