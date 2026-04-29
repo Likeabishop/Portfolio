@@ -1,6 +1,8 @@
 import { Code2, Cloud, Shield, Server, Database, Box, GitBranch } from "lucide-react";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 const Skills = () => {
+    useDocumentTitle('Skills');
 
     const skills = [
         // Cloud & Containerization (Your new expertise)

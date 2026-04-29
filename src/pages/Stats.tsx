@@ -1,6 +1,8 @@
 import { Award, Briefcase, Globe, GraduationCap } from "lucide-react";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 const Stats = () => {
+  useDocumentTitle('Metrics');
     const stats = [
         { icon: Briefcase, label: 'Projects Completed', value: '1+' },
         { icon: Award, label: 'Years Experience', value: '2+' },

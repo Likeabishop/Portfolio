@@ -32,8 +32,17 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="shrink-0">
-              <Link to="/" className="text-2xl font-bold text-indigo-600 dark:text-indigo-400">
-                Portfolio
+              <Link to="/" className="flex items-center">
+                <div className="relative">
+                  {/* Reduced size to w-10 h-10 (40px) or w-12 h-12 (48px) */}
+                  <div className="w-30 h-16 rounded-full overflow-hidden">
+                    <img
+                      src="/images/logo.png"
+                      alt="K A R A B O Logo"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
               </Link>
             </div>
 

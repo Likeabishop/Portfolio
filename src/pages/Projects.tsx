@@ -1,6 +1,8 @@
 import { ExternalLink, Github } from "lucide-react";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 const Projects = () => {
+  useDocumentTitle('Projects');
 
     const projects = [
     {
