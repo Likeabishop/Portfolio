@@ -25,8 +25,8 @@ const AboutMe = () => {
             "@type": "Person",
             name: "Karabo Tebeila",
             jobTitle: "Software Engineer",
-            url: "https://www.justkarabo.xyz",
-            image: "https://www.justkarabo.xyz/images/profile.jpg",
+            url: "https://justkarabo.xyz",
+            image: "https://justkarabo.xyz/images/profile.jpg",
 
             description:
               "Software Engineer specializing in Java, Spring Boot, React, distributed systems, cloud-native applications, Kafka, Redis and AI integrations.",

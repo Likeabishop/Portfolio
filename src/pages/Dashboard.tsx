@@ -24,7 +24,7 @@ const Dashboard: React.FC = () => {
                 "@context": "https://schema.org",
                 "@type": "Person",
                 "name": "Karabo Tebeila",
-                "url": "https://www.justkarabo.xyz",
+                "url": "https://justkarabo.xyz",
                 "jobTitle": "Software Engineer",
                 "alumniOf":"Tshwane University of Technology",
                 "description":

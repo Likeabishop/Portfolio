@@ -2,11 +2,13 @@ import { ArrowLeft, ExternalLink, Github, AlertCircle, BookOpen, Cpu, Lightbulb 
 import { Link, Navigate, useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { projects } from "../data/projects";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 const ProjectCaseStudy = () => {
   const { slug } = useParams();
 
   const project = projects.find((p) => p.slug === slug);
+  useDocumentTitle(project?.title ?? '');
 
   if (!project) {
     return <Navigate to="/projects" replace />;
