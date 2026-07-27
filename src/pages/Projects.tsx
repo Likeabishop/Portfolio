@@ -1,6 +1,6 @@
 import { ExternalLink, Github } from "lucide-react";
 import useDocumentTitle from "../hooks/useDocumentTitle";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { projects } from "../data/projects";
 
 const Projects = () => {
@@ -17,7 +17,8 @@ const Projects = () => {
           {projects.map((project) => (
             <div
               key={project.title}
-              className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
+              onClick={() => navigate(`/projects/${project.slug}`)}
+              className="cursor-pointer bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
             >
                 <div className="h-48 overflow-hidden">
                   <img
