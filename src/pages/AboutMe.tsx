@@ -84,12 +84,6 @@ const AboutMe = () => {
               applications at scale.
             </p>
 
-            <p className="text-gray-600 dark:text-gray-400 leading-relaxed mt-4">
-              Currently pursuing an Advanced Diploma in Computer Science, I've
-              gained valuable experience working in fast-paced startup
-              environments where ownership, adaptability, and solution-driven
-              thinking are essential.
-            </p>
 
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed mt-4">
               Beyond delivery, I continuously refine my craft by building
