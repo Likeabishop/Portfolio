@@ -109,7 +109,7 @@ This project is automatically deployed to **GitHub Pages** on every push to the 
 
 ## 👤 About Me
 
-I'm **Karabo Tebeila**, a software engineer pursuing my Advanced Diploma in Computer Science at Tshwane University of Technology (TUT). My core focus is backend development, microservices architecture, and cloud/DevOps engineering.
+I'm **Karabo Tebeila**, a software engineer and a Diploma in Computer Science graduate at Tshwane University of Technology (TUT). My core focus is backend development, microservices architecture, and cloud/DevOps engineering.
 
 - 🌍 Based in Johannesburg, South Africa
 - 💼 Experience with Java, Spring Boot, React, TypeScript, Docker, Kafka, Redis & more
