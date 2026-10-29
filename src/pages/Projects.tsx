@@ -1,11 +1,10 @@
 import { ExternalLink, Github } from "lucide-react";
 import useDocumentTitle from "../hooks/useDocumentTitle";
-import { useNavigate } from "react-router-dom";
 import { projects } from "../data/projects";
+import { Link, useNavigate } from "react-router-dom";
 
 const Projects = () => {
   useDocumentTitle('Projects');
-
   const navigate = useNavigate();
 
     return (
@@ -15,9 +14,9 @@ const Projects = () => {
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
-            <div
+            <Link
               key={project.title}
-              onClick={() => navigate(`/projects/${project.slug}`)}
+              to={`/projects/${project.slug}`}
               className="cursor-pointer bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
             >
                 <div className="h-48 overflow-hidden">
@@ -83,7 +82,7 @@ const Projects = () => {
                     )}
                   </div>
                 </div>
-              </div>
+              </Link>
           ))}
         </div>
       </section>

@@ -12,6 +12,30 @@ export default defineConfig({
     tailwindcss(),
     sitemap({
       hostname: "https://www.justkarabo.xyz",
+
+      dynamicRoutes: [
+        "/about",
+        "/projects",
+        
+        "/projects/liveauth",
+        "/projects/local-news-articles",
+        "/projects/tenalink",
+        "/projects/entrada",
+        "/projects/contextos-ingestion",
+        "/projects/ride-hailing-platform",
+
+        "/contact",
+        "/skills",
+        "/resume",
+      ],
+
+      exclude: [
+        "/404",
+        "/blog/:slug",
+        "/blog/:slug/comments",
+        "/blog/:slug/comments/:commentId",
+        "/blog/:slug/comments/:commentId/edit",
+      ],
     }),
   ],
 })

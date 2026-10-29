@@ -22,7 +22,6 @@ const App = () => {
           <Route path="contact" element={<ContactMe />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/:slug" element={<ProjectCaseStudy />} />
-          <Route path="projects" element={<Projects />} />
         </Routes>
       </MainLayout>
     </Router>

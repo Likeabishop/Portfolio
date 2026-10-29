@@ -208,32 +208,6 @@ export interface Project {
     },
   
     {
-      slug: "music-platform",
-      title: "Music Updates Platform",
-      description:
-        "A platform where artists publish releases and fans stay informed through personalized feeds.",
-      github: "#",
-      liveLink: "",
-      image:
-        "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1000&q=80",
-      tech: [
-        "React",
-        "FastAPI",
-        "Python",
-        "PostgreSQL",
-      ],
-      status: "coming-soon",
-      caseStudy: {
-        overview: "Currently under development.",
-        problem: "To be documented.",
-        solution: "To be documented.",
-        architecture: "Coming soon.",
-        challenges: [],
-        lessons: [],
-      },
-    },
-  
-    {
       slug: "ride-hailing-platform",
       title: "Ride-Hailing Logistics Platform",
       description:
